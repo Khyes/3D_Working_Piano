@@ -7,7 +7,7 @@
 body {
     height: 100dvh;
     overflow: hidden;
-    background-image: linear-gradient(to left bottom, #002a29, #82677d);    
+    background-image: linear-gradient(to left bottom, #06002a, #9d00ff);    
     font-family: "Space Grotesk", sans-serif;
     text-align: right;
     text-transform: uppercase;
@@ -32,6 +32,19 @@ p {
     color: white;
     font-size: 20px;
 }
+
+img {
+    width: 100%;
+}
+
+.logo-container {
+    position: absolute;
+    left: 3rem;
+    top: 3rem;
+    width: 80px;
+    z-index: 999;
+}
+
 
 .instruction {
     width: 400px;
